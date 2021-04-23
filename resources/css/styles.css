@@ -41,3 +41,18 @@ nav a {
   margin-right: 10px;
 }
 
+main {
+  position: fixed;
+  margin-top: 70px;
+  width: 100%;
+  height: auto;
+}
+
+#mission {
+  background-image: url(../images/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
