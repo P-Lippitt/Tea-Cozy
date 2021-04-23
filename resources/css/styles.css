@@ -10,19 +10,28 @@ body {
 header {
   position: fixed;
   height: 69px;
-  width: auto;
+  width: 100%;
   border-bottom: 1px solid seashell;
 }
 
 #logo {
-  display: block;
   float: left;
   height: 50px;
+  margin-top: 10px;
   margin-left: 10px;
 }
 
 nav {
+  float: right;
   height: auto;
-  text-align: right;
-  text-decoration: underline;
+  width: auto;
+  margin-top: 20px;
+  margin-right: 10px;
 }
+
+nav a {
+  text-decoration: underline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
