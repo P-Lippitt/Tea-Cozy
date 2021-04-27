@@ -89,3 +89,12 @@ main {
   width: 300px;
   margin-bottom: 10px;
 }
+
+#locations {
+  background-image: url(../images/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  height: 570px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
