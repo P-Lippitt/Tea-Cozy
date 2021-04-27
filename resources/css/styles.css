@@ -67,3 +67,25 @@ main {
   width: 1200px;
   height: fit-content;
 }
+
+#featured-tea {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#featured-tea div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#featured-tea figure {
+  margin: 15px;
+}
+
+#featured-tea img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
