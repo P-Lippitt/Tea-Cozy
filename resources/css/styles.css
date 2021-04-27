@@ -1,9 +1,11 @@
 html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 body {
+  position: relative;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -19,6 +21,7 @@ header {
   border-bottom: 1px solid seashell;
   z-index: 1;
   background-color: black;
+  top: 0;
 }
 
 #logo {
@@ -44,7 +47,7 @@ nav a {
 }
 
 main {
-  position: absolute;
+  position: relative;
   margin-top: 70px;
   width: 100%;
   height: auto;
@@ -115,4 +118,21 @@ main {
   width: 300px;
   margin-right: 20px;
   margin-left: 20px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+#contact {
+  height: 200px;
+}
+
+#copyright {
+  margin-top: 10px;
+  margin-left: 20px;
+  float: left;
+  padding-bottom: 30px;
 }
